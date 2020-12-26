@@ -66,6 +66,8 @@ button:hover {
     background-color: #2e86c0;
     border-color: #337cac;
     color: #fff;
+    height: 100%;
+    grid-area: 2 / 4 / 6 / 5;
 }
 
 .equal-sign:hover{
@@ -81,7 +83,7 @@ button:hover {
     padding: 20px;
 }
 
-.equal-sign {
+/* .equal-sign {
     background-color: #2e86c0;
     border-color: #337cac;
     color: #fff;
@@ -90,7 +92,7 @@ button:hover {
     grid-row-end: 6;
     grid-column-start: 4;
     grid-column-end: 5; */
-    grid-row: 2 / 6;
-    grid-column: 4 / 5;
+    /* grid-row: 2 / 6;
+    grid-column: 4 / 5; */
     /* grid-area: 2 / 4 / 6 / 5; */
-}
+/* } */
